@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Амир Сафин — Портфолио & CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0f19;
+            color: #e2e8f0;
+        }
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .card-glass {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+        }
+        .glow-bg {
+            background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.12), transparent 60%);
+        }
+    </style>
+</head>
+<body class="min-h-screen glow-bg selection:bg-sky-500/30 selection:text-sky-200">
+
+    <!-- Навигация -->
+    <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-[#0b0f19]/85 backdrop-blur-md">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="mono text-sm font-semibold tracking-tight text-white flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-sky-400 inline-block"></span>
+                amir.safin
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-sm text-slate-400">
+                <a href="#about" class="hover:text-white transition">01. О себе</a>
+                <a href="#skills" class="hover:text-white transition">02. Навыки</a>
+                <a href="#projects" class="hover:text-white transition">03. Проекты</a>
+                <a href="#education" class="hover:text-white transition">04. Образование</a>
+                <a href="#contacts" class="hover:text-white transition">05. Контакты</a>
+            </nav>
+            <div class="flex items-center gap-2.5">
+                <a href="https://github.com/nemchik-SAF" target="_blank" rel="noopener noreferrer" class="text-xs mono px-3.5 py-2 rounded-lg bg-slate-900 text-slate-200 border border-slate-800 hover:bg-slate-800 transition">
+                    GitHub
+                </a>
+                <a href="https://t.me/Nemo_mir" target="_blank" rel="noopener noreferrer" class="text-xs mono px-3.5 py-2 rounded-lg bg-sky-500/10 text-sky-400 border border-sky-500/30 hover:bg-sky-500/20 transition">
+                    @Nemo_mir
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+
+        <!-- HERO БЛОК -->
+        <section class="py-10 md:py-16 grid md:grid-cols-12 gap-8 items-center">
+            <div class="md:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs text-sky-400 mono">
+                    <span>НИУ ВШЭ • Санкт-Петербург • ПАДИИ</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight">
+                    Сафин Амир Айратович
+                </h1>
+                <p class="text-lg text-slate-300 leading-relaxed">
+                    Студент направления <span class="text-white font-medium">«Прикладной анализ данных и искусственный интеллект» (ПАДИИ)</span>. Увлекаюсь разработкой на <span class="text-sky-400 font-medium">C++</span>, алгоритмами, структурами данных и дискретной математикой.
+                </p>
+                <div class="flex flex-wrap gap-3 pt-2">
+                    <a href="https://t.me/Nemo_mir" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold text-sm transition">
+                        Написать в Telegram
+                    </a>
+                    <a href="https://github.com/nemchik-SAF" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 font-medium text-sm mono transition">
+                        GitHub (nemchik-SAF)
+                    </a>
+                </div>
+            </div>
+
+            <!-- Классическая карточка профиля -->
+            <div class="md:col-span-5">
+                <div class="card-glass p-6 rounded-2xl border border-slate-800 space-y-5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                            АС
+                        </div>
+                        <div>
+                            <h2 class="text-lg font-bold text-white">Амир Сафин</h2>
+                            <p class="text-xs text-slate-400">C++ & Algorithms Enthusiast</p>
+                            <span class="inline-flex items-center gap-1.5 text-xs text-emerald-400 mt-1">
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                Санкт-Петербург, Россия
+                            </span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-800/80 pt-4 space-y-2.5 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">Университет:</span>
+                            <span class="text-slate-200 font-medium">НИУ ВШЭ — СПб</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">Программа:</span>
+                            <span class="text-slate-200 font-medium">ПАДИИ (1 курс)</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">Основной язык:</span>
+                            <span class="mono text-sky-400">C++ / Python</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">ОС и среда:</span>
+                            <span class="mono text-slate-200">macOS • zsh • Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 01. О СЕБЕ -->
+        <section id="about" class="py-12 border-t border-slate-800/80">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="mono text-sky-400 text-sm font-semibold">01.</span>
+                <h2 class="text-2xl font-bold text-white tracking-tight">О себе</h2>
+                <div class="h-px bg-slate-800 flex-grow ml-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <h3 class="text-lg font-semibold text-white mb-3">Академический фокус</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Являюсь студентом первого курса программы «Прикладной анализ данных и искусственный интеллект» (ПАДИИ) в НИУ ВШЭ (Санкт-Петербург). В учёбе делаю упор на фундаментальную компьютерную науку, дискретную математику, математический анализ и разработку эффективных алгоритмов.
+                    </p>
+                </div>
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <h3 class="text-lg font-semibold text-white mb-3">Люблю писать код на C++</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Люблю писать чистый, быстрый и структурированный код на C++. Интересуюсь внутренним устройством стандартной библиотеки (STL), самостоятельной реализацией структур данных с нуля, оптимизацией времени работы программ и работой в UNIX-консоли.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02. НАВЫКИ И СТЕК ТЕХНОЛОГИЙ -->
+        <section id="skills" class="py-12 border-t border-slate-800/80">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="mono text-sky-400 text-sm font-semibold">02.</span>
+                <h2 class="text-2xl font-bold text-white tracking-tight">Навыки и стек технологий</h2>
+                <div class="h-px bg-slate-800 flex-grow ml-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="mono text-xs text-sky-400 mb-2">ПРОГРАММИРОВАНИЕ</div>
+                    <h3 class="text-lg font-bold text-white mb-4">C++ & Алгоритмы</h3>
+                    <ul class="space-y-2.5 text-sm text-slate-300">
+                        <li>• C++ (STL, указатели, управление памятью)</li>
+                        <li>• Сортировки (QuickSort, MergeSort, HeapSort)</li>
+                        <li>• Структуры данных: кучи (Min/Max-Heap), стеки, очереди, деки, связные списки</li>
+                        <li>• Линейный и бинарный поиск</li>
+                        <li>• Оценка сложности алгоритмов</li>
+                        <li>• Основы программирования на Python</li>
+                    </ul>
+                </div>
+
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="mono text-xs text-indigo-400 mb-2">ФУНДАМЕНТАЛЬНАЯ БАЗА</div>
+                    <h3 class="text-lg font-bold text-white mb-4">Математика</h3>
+                    <ul class="space-y-2.5 text-sm text-slate-300">
+                        <li>• Теория множеств и отношения эквивалентности</li>
+                        <li>• Отображения, биекции, мощность множеств</li>
+                        <li>• Комбинаторика и модулярная арифметика</li>
+                        <li>• Математический анализ (пределы последовательностей, теорема Штольца)</li>
+                        <li>• Строгие математические доказательства</li>
+                    </ul>
+                </div>
+
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="mono text-xs text-emerald-400 mb-2">ИНСТРУМЕНТЫ & ОКРУЖЕНИЕ</div>
+                    <h3 class="text-lg font-bold text-white mb-4">Dev Tools</h3>
+                    <ul class="space-y-2.5 text-sm text-slate-300">
+                        <li>• Git (ветвление, работа с удалёнными репозиториями)</li>
+                        <li>• macOS Terminal (zsh, bash, CLI-утилиты)</li>
+                        <li>• OpenSSH (аутентификация по ed25519 ключам, работа с серверами)</li>
+                        <li>• LaTeX (вёрстка математических работ и отчётов)</li>
+                        <li>• HTML5 / CSS3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03. ПРОЕКТЫ И ПРАКТИКА -->
+        <section id="projects" class="py-12 border-t border-slate-800/80">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="mono text-sky-400 text-sm font-semibold">03.</span>
+                <h2 class="text-2xl font-bold text-white tracking-tight">Учебный опыт и проекты</h2>
+                <div class="h-px bg-slate-800 flex-grow ml-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="mono text-xs text-sky-400">C++ • Algorithms</span>
+                            <span class="mono text-xs text-slate-400">2026</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Реализация алгоритмов сортировки и структур данных</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Разработка на C++ собственных структур данных (бинарная куча Min-Heap, двусвязные списки, очереди) и исследование алгоритмов быстрой сортировки и сортировки слиянием, включая анализ глубины рекурсии.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">C++</span>
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">STL</span>
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">Git</span>
+                    </div>
+                </div>
+
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="mono text-xs text-indigo-400">LaTeX • Math</span>
+                            <span class="mono text-xs text-slate-400">2026</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Математический практикум в LaTeX</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Подготовка и профессиональная типографская вёрстка решений задач по дискретной математике и математическому анализу: доказательства по теореме Кантора — Бернштейна, теория чисел и вычисление пределов.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">LaTeX</span>
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">Discrete Math</span>
+                        <span class="mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-300 border border-slate-800">Calculus</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04. ОБРАЗОВАНИЕ И ДОСТИЖЕНИЯ -->
+        <section id="education" class="py-12 border-t border-slate-800/80">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="mono text-sky-400 text-sm font-semibold">04.</span>
+                <h2 class="text-2xl font-bold text-white tracking-tight">Образование и достижения</h2>
+                <div class="h-px bg-slate-800 flex-grow ml-4"></div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- НИУ ВШЭ -->
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <span class="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-sky-500/15 text-sky-300 border border-sky-500/30 mb-2">
+                                Высшее образование (Бакалавриат)
+                            </span>
+                            <h3 class="text-lg font-bold text-white">
+                                НИУ «Высшая школа экономики» (Санкт-Петербург)
+                            </h3>
+                        </div>
+                        <span class="mono text-xs text-slate-400 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 self-start md:self-center">
+                            2026 — 2030 (1 курс)
+                        </span>
+                    </div>
+                    <p class="text-sm text-sky-400 font-medium mb-2">
+                        Направление: Прикладной анализ данных и искусственный интеллект (ПАДИИ)
+                    </p>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Изучение алгоритмов и структур данных на C++, дискретной математики, математического анализа и компьютерных наук.
+                    </p>
+                </div>
+
+                <!-- Код будущего -->
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <span class="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-500/15 text-indigo-300 border border-indigo-500/30 mb-2">
+                                Дополнительное ИТ-образование
+                            </span>
+                            <h3 class="text-lg font-bold text-white">
+                                Выпускник проекта «Код будущего»
+                            </h3>
+                        </div>
+                        <span class="mono text-xs text-slate-400 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 self-start md:self-center">
+                            Ноябрь 2023
+                        </span>
+                    </div>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Успешное окончание курса профессиональной ИТ-подготовки и программирования.
+                    </p>
+                </div>
+
+                <!-- Яндекс Лицей -->
+                <div class="card-glass p-6 rounded-2xl border border-slate-800/80">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <span class="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 mb-2">
+                                Дополнительное ИТ-образование
+                            </span>
+                            <h3 class="text-lg font-bold text-white">
+                                Окончил Яндекс Лицей — «Основы программирования на Python»
+                            </h3>
+                        </div>
+                        <span class="mono text-xs text-slate-400 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 self-start md:self-center">
+                            2022 — 2023
+                        </span>
+                    </div>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Освоил дополнительную образовательную программу «Основы программирования на языке Python» в рамках проекта «Лицей Академии Яндекса»[cite: 1].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 05. КОНТАКТЫ -->
+        <section id="contacts" class="py-12 border-t border-slate-800/80 text-center">
+            <div class="flex items-center justify-center gap-2 mb-3">
+                <span class="mono text-sky-400 text-sm font-semibold">05.</span>
+                <h2 class="text-2xl font-bold text-white">Связаться со мной</h2>
+            </div>
+            <p class="text-sm text-slate-400 max-w-md mx-auto mb-6">
+                Открыт к учебным и исследовательским проектам, обсуждению алгоритмов и совместной разработке.
+            </p>
+            <div class="flex justify-center flex-wrap gap-4 mono text-sm">
+                <a href="https://t.me/Nemo_mir" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-sky-500/10 hover:bg-sky-500/20 border border-sky-500/30 text-sky-400 transition">
+                    Telegram (@Nemo_mir)
+                </a>
+                <a href="https://github.com/nemchik-SAF" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 transition">
+                    GitHub (nemchik-SAF)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800/80 py-6 text-center text-xs text-slate-500 mono">
+        © 2026 Сафин Амир Айратович • НИУ ВШЭ — Санкт-Петербург (ПАДИИ)
+    </footer>
+
+</body>
+</html>
